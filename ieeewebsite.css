@@ -1,0 +1,412 @@
+body{
+background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+
+}
+
+p{
+
+  font-family: Yu Gothic UI;
+}
+
+.title{
+  display: inline-block;
+  padding: 8px 0;
+  margin-top: 15px;
+}
+
+.clg-name{
+  font-size: 34px;
+  font-family: Yu Gothic UI;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.title-div{
+  display: inline-block;
+
+}
+
+.logo{
+  float: left;
+  padding-right: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width:1300px){
+       iframe {
+           width:200px;
+       }
+
+   }
+@media (max-width:1000px){
+      iframe {
+          width:300px;
+      }
+}
+
+footer{
+  background-color: black;
+  position: absolute;  
+}
+
+nav div{
+  padding-left: 9%;
+}
+
+.nav-item{
+  padding-left: 5px;
+font-family: Source Sans Pro;
+font-size: 18px;
+color:white;
+}
+
+.nav-item:hover{
+  font-size: 20px;
+  color:white;
+}
+
+.navbar-brand{
+font-family: Source Sans Pro;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link{
+    color:white;
+  }
+
+.dropdown-item{
+  background-color:#212529;
+  color:white;
+  font-family: Source Sans Pro;
+}
+
+.dropdown-menu{
+  background-color: #212529;
+  color:white;
+  margin:6px;
+  line-height: 40px;
+  border-radius: 0px;
+}
+
+.dropdown-item:hover{
+  background-color:black;
+  background-size: cover;
+  color:white;
+}
+
+
+.div-img{
+  background-image: url('img.jpg');
+  width:100%;
+  height:400px;
+  background-size: 100% 100%;
+}
+
+.overlay{
+  background-color: #000000;
+  width:100%;
+  height: 400px;
+  opacity:0.4;
+}
+
+.page-title {
+    font-size: 48px;
+    box-sizing: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    word-wrap: break-word;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+footer .row{
+  padding-left: 80px;
+  padding-top: 20px;
+  width:100%;
+  height: auto;
+}
+
+.description{
+  margin:6px 0 0;
+  box-sizing: inherit;
+  color:orange;
+  font-family: Yu Gothic UI;
+  font-size: 18px;
+}
+
+
+
+.col-xs-12{
+  padding-bottom: 80px;
+}
+
+.history{
+  margin-top: 500px;
+}
+
+#githistory{
+  margin-top: 300px;
+}
+
+li{
+  list-style:none;
+  display: inline-block;
+}
+
+.lists{
+  display: block;
+  margin-left: 25px;
+}
+
+.lists:hover{
+  background-color:#242120;
+}
+
+.t-icon{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1da1f2;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.i-icon{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e4405f;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.l-icon{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.fa-twitter{
+  color: white;
+  background-color: #1da1f2;
+}
+
+.fa-linkedin{
+  color: white;
+  background-color: blue;
+}
+
+.fa-instagram{
+  color: white;
+  background-color: #e4405f;
+}
+
+.fa{
+  display: inline-block;
+}
+
+.quicklink{
+  display: block;
+  line-height: 30px;
+  color:white;
+}
+
+.map{
+
+}
+
+.img_container{
+  margin: 50px auto;
+  background-color: black;
+  padding: 15px;
+  max-width: 800px;
+}
+
+.img_container h1{
+  color:white;
+  text-align: center;
+}
+
+.img_container p{
+  color:white;
+  text-align: center;
+}
+
+.banner{
+   outline: none;
+   text-decoration: none;
+   -ms-interpolation-mode: bicubic;
+   clear: both;
+   display: block !important;
+   border: 0;
+   height: auto;
+   float: none;
+   width: 100%;
+   max-width: 360px;
+   margin: auto;
+   padding: 25px;
+}
+
+.content{
+ text-align: center;
+ color: white;
+ font-size: 15px;
+}
+
+.content p{
+  padding: 5px;
+}
+
+.slider{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  height: 800px;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-control-next-icon{
+  width:30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon{
+  width:30px;
+  height: 30px;
+}
+
+.carousel-indicators li{
+  width: 10px;
+  border-radius: 50px;
+
+}
+
+.gallery{
+  margin: 10px 5px 10px 5px;
+  width: auto;
+  height: auto;
+}
+
+.execom{
+  transition: transform .2s;
+}
+
+.execom:hover{
+  transform: scale(1.1);
+}
+
+.selector_div{
+  float: left;
+  border: 1px solid black;
+  width:300px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-right: 250px;
+  background-color: black;
+  height: 50px;
+}
+
+#dropdown-menu{
+  margin-left:-41px;
+  margin-top:17px;
+  width:300px;
+  border: 0px solid black;
+}
+
+#toggle_pj::after{
+  margin-left: 150px;
+}
+
+.web_desc{
+  display: block;
+  margin-top: 150px;
+}
+
+.student{
+  padding-left: 15%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.main_img{
+  float:right;
+  max-width:700px;
+  height:800px;
+  border:15px solid black;
+}
+
+@media(max-width:1000px){
+  .main_img{
+    float:none;
+    margin:0 auto;
+  }
+}
+
+@media(max-width:600px){
+  .main_img{
+    height: 400px;
+  }
+}
+
+.team-name{
+    border: 1px solid white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+#achivements{
+background-color: rgb(222, 202, 208);
+width:100%;
+padding: 2%;
+background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+
+#achivements h1{
+  padding-bottom: 2%;
+  font-family: fantasy;
+}
+#achivements h5{
+  padding:  1% 0;
+    font-family: Source Sans Pro;
+
+
+  }
+
+  .student1{
+background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+  }
